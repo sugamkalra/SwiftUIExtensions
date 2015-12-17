@@ -15,6 +15,8 @@
 		15004B2C1C22BD8F00497BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15004B2A1C22BD8F00497BB4 /* LaunchScreen.storyboard */; };
 		15004B371C22BD8F00497BB4 /* SwiftyUIExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B361C22BD8F00497BB4 /* SwiftyUIExtensionTests.swift */; };
 		15004B421C22BD8F00497BB4 /* SwiftyUIExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B411C22BD8F00497BB4 /* SwiftyUIExtensionUITests.swift */; };
+		15004B511C22BDAE00497BB4 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B501C22BDAE00497BB4 /* UIExtensions.swift */; };
+		15004B531C22BE3500497BB4 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15004B521C22BE3500497BB4 /* FoundationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		15004B3D1C22BD8F00497BB4 /* SwiftyUIExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUIExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15004B411C22BD8F00497BB4 /* SwiftyUIExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyUIExtensionUITests.swift; sourceTree = "<group>"; };
 		15004B431C22BD8F00497BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15004B501C22BDAE00497BB4 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		15004B521C22BE3500497BB4 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		15004B1D1C22BD8F00497BB4 /* SwiftyUIExtension */ = {
 			isa = PBXGroup;
 			children = (
+				15004B4F1C22BD9300497BB4 /* UIExtensions */,
 				15004B1E1C22BD8F00497BB4 /* AppDelegate.swift */,
 				15004B201C22BD8F00497BB4 /* ViewController.swift */,
 				15004B221C22BD8F00497BB4 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				15004B431C22BD8F00497BB4 /* Info.plist */,
 			);
 			path = SwiftyUIExtensionUITests;
+			sourceTree = "<group>";
+		};
+		15004B4F1C22BD9300497BB4 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				15004B501C22BDAE00497BB4 /* UIExtensions.swift */,
+				15004B521C22BE3500497BB4 /* FoundationExtensions.swift */,
+			);
+			name = UIExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15004B211C22BD8F00497BB4 /* ViewController.swift in Sources */,
+				15004B531C22BE3500497BB4 /* FoundationExtensions.swift in Sources */,
 				15004B271C22BD8F00497BB4 /* SwiftyUIExtension.xcdatamodeld in Sources */,
 				15004B1F1C22BD8F00497BB4 /* AppDelegate.swift in Sources */,
+				15004B511C22BDAE00497BB4 /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
